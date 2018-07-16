@@ -11,11 +11,11 @@
     display: inline-block;
 
     a {
-      background-color: #fff;
+      background-color: $white;
       margin-left: .1em;
       margin-right: .1em;
-      border: 1px solid #222;
-      color: #222;
+      border: 1px solid $dark-gray;
+      color: $black;
       float: left;
       line-height: 1.42857143;
       padding: 6px 12px;
@@ -27,9 +27,9 @@
 
   .active {
     a {
-      background-color: #222;
-      border-color: #222;
-      color: #fff;
+      background-color: $dark-gray;
+      border-color: $dark-gray;
+      color: $gray;
       cursor: default;
       z-index: 2;
     }
@@ -50,7 +50,7 @@
 
     &:hover {
       color: $theme-color;
-      transform: translateX(-4px); 
+      transform: translateX(-4px);
     }
   }
 
@@ -59,7 +59,7 @@
 
     &:hover {
       color: $theme-color;
-      transform: translateX(4px); 
+      transform: translateX(4px);
     }
   }
 }

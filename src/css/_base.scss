@@ -19,6 +19,18 @@ body {
   // border-top: 3px solid $theme-color;
 }
 
+footer#footer {
+  margin-top: 0;
+  color: $black;
+  background-color: $light-gray;
+  a {
+    color: #8f3f71;
+  }
+  .social-links a {
+    color: $black;
+  }
+}
+
 @include max-screen() {
   body {
     border-top: 0;
@@ -27,12 +39,12 @@ body {
 
 ::selection {
   background: $theme-color;
-  color: #fff; 
+  color: $black;
 }
 
 // ::-webkit-scrollbar {
 //   width: 8px;
-//   height: 6px; 
+//   height: 6px;
 // }
 
 // ::-webkit-scrollbar-thumb {
@@ -97,9 +109,9 @@ a {
 }
 
 .bg-llight {
-  background-color: #f2f2f5;
+  background-color: $black;
 }
 
 .bg-white {
-  background-color: #FFF;
+  background-color: $dark-gray;
 }
