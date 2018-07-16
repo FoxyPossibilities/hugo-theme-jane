@@ -6,7 +6,7 @@
   // margin: $archive-margin;
   // max-width: $archive-max-width;
   margin: 0 5em 3em;
-  background-color: white;
+  background-color: $dark-gray;
   padding: 1em 5em 5em 5em;
 
   .archive-title {
@@ -27,13 +27,13 @@
 
     .archive-post-counter {
       display: none;
-      color: $dark-gray;
+      color: $light-gray;
     }
   }
 
   .collection-title {
     font-family: $global-serif-font-family;
-  
+
     .archive-year {
       margin: 2em 0 0;
       font-weight: 400;
@@ -50,7 +50,7 @@
     width: 100%;
 
     .archive-post-time {
-       color: $dark-gray;
+       color: $light-gray;
       display: table-cell;
       width: 7em;
       vertical-align: middle;
@@ -59,7 +59,7 @@
     .archive-post-title {
       display: table-cell;
       vertical-align: middle;
-      
+
       .archive-post-link {
         color: $theme-color;
       }
@@ -75,7 +75,7 @@
       transform: $archive-post-hover-transform;
 
       .archive-post-time {
-        color: darken($dark-gray, 10%);
+        color: darken($light-gray, 10%);
       }
 
       .archive-post-title .archive-post-link {
@@ -86,13 +86,13 @@
 
   .more-post {
     text-align: right;
-    
+
     .more-post-link {
       margin-top: 1em;
       color: $theme-color;
       font-size: 1.1em;
       font-family: $global-serif-font-family;
-    
+
       &:hover {
         border-bottom: $post-readMore-border-bottom;
       }
